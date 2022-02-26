@@ -1,0 +1,161 @@
+
+*{
+    padding: 0%;
+    margin: 0%;
+}
+body{
+    max-height: 100vh;
+}
+header{
+    height: 1000px;
+    padding-top: 20px;
+    background-image: url(imagens/header.jpg);
+    background-size: cover;
+}
+ul.nav{
+    text-align: center;
+    width: 100%;
+    position: fixed;
+    top: 0;
+    background-color: transparent;
+}
+ul.nav li.nav1{
+    display: inline-block;
+}
+ul.nav li.nav1 a{
+    display: inline-block;
+    padding: 10px 20px;
+    margin: 5px 15px;
+
+}
+a.nav2{
+    text-decoration: none;
+    color: lightsalmon;
+    font-size: 1.1em;
+    text-transform: uppercase;
+}
+a.nav2:hover{
+    color: white;
+}
+header>article#paginainicial{
+    position: relative;
+}
+a#pedido{
+    text-decoration: none;
+    background-color: lightsalmon;
+    color: white;
+    text-transform: uppercase;
+}
+a#pedido:hover{
+    background-color: white;
+    color: lightsalmon;
+}
+article#paginainicial{
+    display: inline-block;
+    transform: translate(-50%,-50%);
+    top: 50%;
+    left: 52%;
+}
+h1#titulo01{
+    color: lightsalmon;
+    font-size: 6vw;
+    padding-top: 50px;
+    text-transform: uppercase;
+}
+p#paragrafo01{
+    color: lightsalmon;
+    font-size: 3vw;
+    text-transform: uppercase;
+}
+section{
+  
+}
+section#cardapio{
+  position: relative;
+  height: 800px;
+}
+div#cardapio01{
+position:relative;
+transform: translate(-50%,-50%);
+top: 50%;
+left: 50%;
+display: inline-block;
+padding-left: 40px;
+
+}
+img{
+    height: 35vh;
+    width: 30vh;
+}
+section#caixa03{
+    background-size: cover;
+    background-position: right center;
+    background-attachment: fixed;
+    height: 90vh;
+    position: relative;
+    background-color: lightsalmon;
+}
+section >div#sobre{
+    background-color: white;
+    min-width: 500px;
+    height: 450px;
+    padding-top: 30px;
+    border-radius: 20px;
+    position: absolute;
+    transform: translate(-50%,-50%);
+    top: 50%;
+    left: 50%;
+}
+section >h1#titulo02{
+    position: relative;
+}
+h1#titulo02{
+    position: absolute;
+    transform: translate(-50%,-50%);
+    top: 20%;
+    left: 26%;
+    color: lightsalmon;
+}
+section >p#paragrafo02{
+    position: relative;
+}
+p#paragrafo02{
+    position: absolute;
+    transform: translate(-50%,-50%);
+    top: 50%;
+    left: 27%;
+    width: 200px;
+    color: lightsalmon;
+}
+section>a#buttom{
+color: black;
+position: relative;
+}
+a#buttom{
+    position: absolute;
+    transform: translate(-50%,-50%);
+    top: 50%;
+    left: 73%;
+    text-decoration: none;
+    color: lightsalmon;
+    background-color: white;
+    border: 1px solid lightsalmon;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+a#buttom:hover{
+    background-color: lightsalmon;
+    color: white;
+    transition: 0.6s;
+}
+hr{
+    color: lightsalmon;
+    width: 2px;
+    height: 400px;
+    font-size: large;
+    margin: auto;
+    background-color: lightsalmon;
+    border: 1px solid lightsalmon;
+}
