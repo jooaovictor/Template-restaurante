@@ -17,7 +17,6 @@ ul.nav{
     width: 100%;
     position: fixed;
     top: 0;
-    background-color: transparent;
 }
 ul.nav li.nav1{
     display: inline-block;
@@ -87,13 +86,57 @@ img{
     height: 35vh;
     width: 30vh;
 }
+section#caixa02{
+    position: relative;
+    background-color: rgba(255, 226, 230, 0.432);
+    height: 90vh;
+}
+div#bufe{
+    position: absolute;
+    transform: translate(-50%,-50%);
+    top: 50%;
+    left: 50%;
+    background-color: white;
+    width: 490px;
+    padding: 10px;
+    border-radius: 5px;
+}
+h1#titulo03{
+    font-size: 1.8em;
+    text-align: center;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+p#paragrafo03{
+    text-align: center;
+    font-size: 1.2em;
+    padding-bottom: 20px;
+}
+div#bufe >a#buttom01{
+    position: relative;
+    text-decoration: none;
+    padding: 10px 5px;
+    border: 1px solid lightsalmon;
+}
+a#buttom01{
+    position: absolute;
+    transform: translate(-50%,-4%);
+    top: 80%;
+    left: 50%;
+    display: inline-block;
+    color: lightsalmon;
+}
+a#buttom01:hover{
+    background-color: lightsalmon;
+    color: white;
+}
 section#caixa03{
     background-size: cover;
     background-position: right center;
     background-attachment: fixed;
     height: 90vh;
     position: relative;
-    background-color: lightsalmon;
+   background-image: url(imagens/denys-nevozhai-guNIjIuUcgY-unsplash.jpg);
 }
 section >div#sobre{
     background-color: white;
