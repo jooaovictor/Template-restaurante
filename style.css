@@ -17,6 +17,7 @@ ul.nav{
     width: 100%;
     position: fixed;
     top: 0;
+    flex-wrap: wrap;
 }
 ul.nav li.nav1{
     display: inline-block;
@@ -67,29 +68,27 @@ p#paragrafo01{
     text-transform: uppercase;
 }
 section{
-  
-}
-section#cardapio{
-  position: relative;
-  height: 800px;
-}
-div#cardapio01{
-position:relative;
-transform: translate(-50%,-50%);
-top: 50%;
-left: 50%;
-display: inline-block;
-padding-left: 40px;
 
 }
+section#cardapio{
+    display: flex;
+    flex-wrap: wrap;
+    height: 100vh;
+    padding-left: 40px;
+    max-width: 900px;
+    margin: auto;
+}
+section#cardapio >div#cardapio01{
+    flex: 1 1 100px;
+    margin: auto;
+}
 img{
-    height: 35vh;
-    width: 30vh;
+max-width: 100%;
 }
 section#caixa02{
     position: relative;
-    background-color: rgba(255, 226, 230, 0.432);
-    height: 90vh;
+    background-color: rgba(255, 196, 0, 0.842);
+    height: 80vh;
 }
 div#bufe{
     position: absolute;
@@ -106,11 +105,14 @@ h1#titulo03{
     text-align: center;
     padding-top: 20px;
     padding-bottom: 20px;
+    color: lightsalmon;
 }
 p#paragrafo03{
     text-align: center;
     font-size: 1.2em;
-    padding-bottom: 20px;
+    padding-top: 20px;
+    padding-bottom: 30px;
+    color: lightsalmon;
 }
 div#bufe >a#buttom01{
     position: relative;
@@ -143,7 +145,6 @@ section >div#sobre{
     min-width: 500px;
     height: 450px;
     padding-top: 30px;
-    border-radius: 20px;
     position: absolute;
     transform: translate(-50%,-50%);
     top: 50%;
