@@ -4,13 +4,15 @@
     margin: 0%;
 }
 body{
-    max-height: 100vh;
+    margin: 0px;
+    padding: 0px;
 }
 header{
     height: 1000px;
     padding-top: 20px;
     background-image: url(imagens/header.jpg);
     background-size: cover;
+    min-width: 389px;
 }
 ul.nav{
     text-align: center;
@@ -67,33 +69,32 @@ p#paragrafo01{
     font-size: 3vw;
     text-transform: uppercase;
 }
-section{
-max-width: 100vw;
-min-width: 300px;
+main,section{
+min-width: 380px;
 }
 section#cardapio{
     display: flex;
     flex-wrap: wrap;
-    height: 100vh;
-    max-width: 900px;
-    padding-left: 40px;
-    margin: auto;
+    max-width: 800px;
+    margin: 0 auto;
 }
-section#cardapio >div#imgfood{
-    flex: 1 1 40px;
-    margin: auto;
-    columns: 1;
-    min-width: 400px;
-    min-width: 20vh;
+section#cardapio > img{
+    flex: 1 1 60px;
+    max-width: 800px;
+    display: flex;
+    flex-wrap: wrap;
+    margin: 10px;
 }
 
 img{
 max-width: 100%;
+display: block;
 }
 section#caixa02{
     position: relative;
     background-color: rgba(255, 196, 0, 0.842);
     height: 80vh;
+    min-width: 300px;
 }
 div#bufe{
     position: absolute;
@@ -101,9 +102,9 @@ div#bufe{
     top: 50%;
     left: 50%;
     background-color: white;
-    min-width: 450px;
-    padding: 10px;
+    min-width: 300px;
     border-radius: 5px;
+    padding: 10px;
 }
 h1#titulo03{
     font-size: 1.8em;
@@ -144,37 +145,32 @@ section#caixa03{
     height: 90vh;
     position: relative;
    background-image: url(imagens/denys-nevozhai-guNIjIuUcgY-unsplash.jpg);
+   max-width: 300;
 }
 section >div#sobre{
     background-color: white;
-    min-width: 450px;
-    height: 450px;
-    padding-top: 30px;
+   min-width: 300px;
+   height: 200px;
+   padding: 20px;
     position: absolute;
     transform: translate(-50%,-50%);
     top: 50%;
     left: 50%;
+    border-radius: 10px;
 }
-section >h1#titulo02{
-    position: relative;
-}
+
 h1#titulo02{
-    position: absolute;
-    transform: translate(-50%,-50%);
-    top: 20%;
-    left: 26%;
     color: lightsalmon;
+    text-align: center;
+    margin-bottom: 20px;
+    font-size: 1.7em;
+    text-transform: uppercase;
 }
-section >p#paragrafo02{
-    position: relative;
-}
+
 p#paragrafo02{
-    position: absolute;
-    transform: translate(-50%,-50%);
-    top: 50%;
-    left: 27%;
-    width: 200px;
     color: lightsalmon;
+    text-align: center;
+    text-align: justify;
 }
 section>a#buttom{
 color: black;
@@ -183,8 +179,8 @@ position: relative;
 a#buttom{
     position: absolute;
     transform: translate(-50%,-50%);
-    top: 50%;
-    left: 73%;
+    top: 85%;
+    left: 50%;
     text-decoration: none;
     color: lightsalmon;
     background-color: white;
@@ -197,18 +193,30 @@ a#buttom{
 a#buttom:hover{
     background-color: lightsalmon;
     color: white;
-    transition: 0.6s;
-}
-hr{
-    color: lightsalmon;
-    width: 2px;
-    height: 400px;
-    font-size: large;
-    margin: auto;
-    background-color: lightsalmon;
-    border: 1px solid lightsalmon;
+   
 }
 footer{
-    height: 50vh;
     background-color: lightsalmon;
+    height: 50vh;
+    position: relative;
+    padding-left: 16px;
+    padding-top: 10px;
 }
+h1#h1footer{
+    color: white;
+    text-transform: uppercase;
+}
+footer >div#logosociais > a,img {
+    display: inline-block;
+    flex-wrap: wrap;
+    background-color: azure;
+    border-radius: 20px;
+    margin-top: 5px;
+    margin-left: 3px;
+}
+div#logosociais > a,img:hover{
+  background-color: wheat;
+  border-radius: 19px;
+}
+
+
