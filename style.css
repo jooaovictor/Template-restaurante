@@ -197,26 +197,45 @@ a#buttom:hover{
 }
 footer{
     background-color: lightsalmon;
-    height: 50vh;
-    position: relative;
-    padding-left: 16px;
-    padding-top: 10px;
+    height: 60vh;
+    padding-top: 20px; 
+    padding: 10px;
+    min-width: 300px;
 }
-h1#h1footer{
-    color: white;
-    text-transform: uppercase;
+footer > section{
+    background-color: blanchedalmond;
+    max-width: 95vw;
+    height: 280px;
+    margin: auto;
+    min-width: 300px;
+}
+h1.h1footer{
+    color: lightsalmon;
+    margin-bottom: 3px;
+    font-size: 1.5em;
 }
 footer >div#logosociais > a,img {
     display: inline-block;
     flex-wrap: wrap;
-    background-color: azure;
+    background-color: lightsalmon;
     border-radius: 20px;
     margin-top: 5px;
     margin-left: 3px;
 }
 div#logosociais > a,img:hover{
-  background-color: wheat;
+  background-color: lightsalmon;
   border-radius: 19px;
 }
-
+div#caixafooter1{
+    margin-top: 40px;
+    padding: 3px;
+    color:lightsalmon;
+    text-align: left;
+    font-size: 1em;
+    display: contents;
+}
+div#caixafooter2{
+    color: lightsalmon;
+    text-align: center;
+}
 
