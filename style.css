@@ -197,17 +197,16 @@ a#buttom:hover{
 }
 footer{
     background-color: lightsalmon;
-    height: 60vh;
-    padding-top: 20px; 
     padding: 10px;
     min-width: 300px;
 }
 footer > section{
-    background-color: blanchedalmond;
-    max-width: 95vw;
-    height: 280px;
+    background-color: rgb(247, 243, 237);
+    max-width: 90vw;
     margin: auto;
     min-width: 300px;
+    padding: 10px;
+    border-radius: 10px;
 }
 h1.h1footer{
     color: lightsalmon;
@@ -217,7 +216,6 @@ h1.h1footer{
 footer >div#logosociais > a,img {
     display: inline-block;
     flex-wrap: wrap;
-    background-color: lightsalmon;
     border-radius: 20px;
     margin-top: 5px;
     margin-left: 3px;
@@ -226,7 +224,15 @@ div#logosociais > a,img:hover{
   background-color: lightsalmon;
   border-radius: 19px;
 }
+
 div#caixafooter1{
+    text-align: end;
+    display: block;
+    color:lightsalmon;
+    font-size: 1em;
+    padding: 3px;
+}
+div#caixafooter2{
     margin-top: 40px;
     padding: 3px;
     color:lightsalmon;
@@ -234,8 +240,11 @@ div#caixafooter1{
     font-size: 1em;
     display: contents;
 }
-div#caixafooter2{
+div#caixafooter3{
     color: lightsalmon;
     text-align: center;
+    display: block;
+    padding: 10px;
+
 }
 
